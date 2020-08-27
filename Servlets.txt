@@ -1,0 +1,50 @@
+Servlet is java code that runs on server
+
+Benefits 
+	Efficient
+		Instance/Object gets loaded only once in web container
+
+	Asynchronous Support
+		Asynchronous Programming enables to serve multiple 			clients simultaneously
+		AJAX=>helps to implement partial page reloading
+
+class
+Demo d=new Demo();
+Cookie ck=new Cookie();
+
+Interface
+//Interface or abstract class
+Demo d=DemoC.getInstance();
+RequestDispatcher dispatcher=request.getRequestDispatcher();
+
+Servlets runs inside component container in the web server,this component container provides run time environment for execution of servlets.This component is referred to as web container
+
+LifeCycle of Servlet
+
+conversion of servlet to bytecode
+loading servlet class into web container
+creating instance/object of the servlet
+initialiazing instance with init() method
+processing client request by service() method
+destructing the object using destroy() method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+whats is the feature of VectorList??
+	its synchronized and can be accessed by one thread at a time
+
+Treeset sorts the objects whereas hashmap does not and hence it is faster in performance
+Deque=>Deck->Double Ended Queue
+
+Sorting in Collections
+	Sorting in collections can be achieved by two interfaces
+	Comparable
+		compareTo()
+			Compares two objects at a time
+	Comparator
+		The name consists of word compareTo and in this method 			compare is defined
+		compare()
+			Compares many objects together
+

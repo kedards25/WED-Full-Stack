@@ -1,0 +1,34 @@
+Any application in the world can be divided into 3 parts
+	UI/Design=>Presentation Logic
+	Code	 =>Bussiness Logic
+	DB	 =>Data Layer
+
+
+CGI
+	Common Getway Interface
+		creates new object of CGI script for each request
+
+Sevlets
+	is initialised only once
+	Had working as same as CGI but it is based on threading
+	and hence handling concurrent requests is possible
+	HTML within Java
+
+JSP
+	Java within HTML
+	Later we had JSTL which ovecame the need of java code in html 	by adding java tags
+	<c:if text="">
+		
+	</cif>
+
+PHP
+	Hypertext PreProcessor
+	<h1><? echo "Hello"?></h1>
+
+
+ASP.net=>ASP MVC=>ASP.NET Core
+	Based on .NET platform
+	VB or C#
+
+
+

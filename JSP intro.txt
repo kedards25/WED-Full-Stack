@@ -1,0 +1,19 @@
+Servlet code
+String user="Kedar";
+out.println("<table>");
+out.println("<thead>");
+out.println("<tr>");
+out.println("<th>Name</th>");
+out.println("</thead>");
+out.println("<tbody>");
+out.println("<tr><td>"+user+"</td></tr>");
+out.println("</tbody>");
+out.println("</table>");
+
+JSP code
+String user="Kedar";
+<h1>Hello <%=user%></h1>
+
+EL=>Expression Language
+String user="Kedar";
+<h1>Hello ${user}</h1>
